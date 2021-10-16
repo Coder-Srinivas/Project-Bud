@@ -27,13 +27,13 @@
   "homepage": "https://github.com/Coder-Srinivas/Project-Bud#readme",
   "devDependencies": {
     "concurrently": "^6.3.0",
-    "dotenv": "^10.0.0",
     "husky": "^7.0.2",
     "prettier": "^2.4.1"
   },
   "dependencies": {
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-openid-connect": "^2.5.1",
     "helmet": "^4.6.0",

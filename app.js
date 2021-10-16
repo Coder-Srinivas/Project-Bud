@@ -25,15 +25,14 @@ app.use(helmet({ contentSecurityPolicy: false }));
 app.use(morgan("dev"));
 app.use(express.json());
 
-
 if (process.env.NODE_ENV === "production") {
-    app.use(express.static("client/build"));
-    app.get("*", (req, res) => {
-        res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
-    });
+  app.use(express.static("client/build"));
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
 }
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT || 8000;
 server.listen(port, () => {
-    console.log(`Listening on port ${port}`);
+  console.log(`Listening on port ${port}`);
 });

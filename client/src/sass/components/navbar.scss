@@ -1,0 +1,27 @@
+.navbar{
+display: flex;
+padding: 1rem 1rem;
+overflow: hidden;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: rgba(169, 151, 223, 0.151);
+// background-color: transparent;
+justify-content: space-between;
+height: 7vh;
+&-logo{
+    transform: scale(2.8);
+    margin-left: 2rem;
+    margin-top: 0.6rem;
+}
+&-buttons{
+margin-right: 2rem;
+}
+}
+  
+//   @media (max-width: 750px) {
+//     .navbar {
+//       justify-content: center;
+//     }
+//   }
+  

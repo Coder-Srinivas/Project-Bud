@@ -1,0 +1,34 @@
+.home{
+    &-hero{
+        margin: 10rem 1rem 2rem 2rem;
+        display: flex;
+        &--text{
+            display: flex;
+            flex-direction: column;
+            color: $color-green2;
+            margin: 3rem;
+            &-title{
+                font-size: 4rem;
+                // width: 100%;
+                margin-bottom: 2rem;
+            }
+            &-sub{
+                font-weight: 200;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+.home{
+    &-hero{
+        flex-direction: column-reverse;
+        &--text{
+            &-title{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+}

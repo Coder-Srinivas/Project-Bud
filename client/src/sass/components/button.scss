@@ -1,29 +1,29 @@
 .btn {
-    border-radius: 5px;
-    padding: 0.8rem 2rem;
-    cursor: pointer;
-    background-color: $color-yellow;
+  border-radius: 5px;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  background-color: $color-yellow;
+  color: $color-green2;
+  border: 2px solid rgba(100, 100, 111, 0.2);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 1rem;
+  transition: 0.2s ease-in;
+  max-width: 15vw;
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $color-green2;
+  }
+  a {
+    text-decoration: none;
     color: $color-green2;
-    border: 2px solid rgba(100, 100, 111, 0.2);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    font-size: 1rem;
-    transition: 0.2s ease-in;
-    max-width: 15vw;
-    &:hover {
-      background-color: transparent;
-      border: 2px solid $color-green2;
-    }
-    a{
-        text-decoration: none;
-        color: $color-green2;
-    }
-    &-profile{
-        margin-left: 1rem;
-    }
   }
-  @media (max-width: 750px) {
-    .btn {
-      font-size: 0.8rem;
-      max-width: 100vw;
-    }
+  &-profile {
+    margin-left: 1rem;
   }
+}
+@media (max-width: 750px) {
+  .btn {
+    font-size: 0.8rem;
+    max-width: 100vw;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "project-bud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coder-Srinivas/Project-Bud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coder-Srinivas/Project-Bud/issues"
+  },
+  "homepage": "https://github.com/Coder-Srinivas/Project-Bud#readme"
+}

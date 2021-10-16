@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useAuth0 } from '@auth0/auth0-react';
 import Navbar from "./components/Navbar";
@@ -5,6 +6,7 @@ import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function App() {
   const { isLoading } = useAuth0();

@@ -5,9 +5,14 @@ import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
+import { login } from "./services/login.service";
 
 export default function App() {
-  const { isLoading } = useAuth0();
+  const { user, isLoading } = useAuth0();
+  if (user) {
+    login(user);
+    console.log(user);
+  }
   if (isLoading)
     return (
       <div className="loading">

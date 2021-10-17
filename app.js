@@ -1,29 +1,28 @@
 const express = require("express");
-const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
-const http = require("http");
-
 const path = require("path");
+
+//Routes
+const userRoute = require("./routes/user.route");
+
 require("dotenv").config();
 require("./database/connection");
 
 const app = express();
-const server = http.createServer(app);
 
 //Middleware
-app.use(cookieParser());
 app.use(
   cors({
     origin: "http://localhost:3000",
     credentials: true,
   })
 );
-
 app.use(helmet({ contentSecurityPolicy: false }));
 app.use(morgan("dev"));
 app.use(express.json());
+app.use(userRoute);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
@@ -32,7 +31,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-const port = process.env.PORT || 8000;
-server.listen(port, () => {
+const port = process.env.PORT || 5000;
+app.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });

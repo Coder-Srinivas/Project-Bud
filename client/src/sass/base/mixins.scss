@@ -1,0 +1,8 @@
+@mixin user-card{
+    background-color: rgba(169, 151, 223, 0.295);
+    min-width: 20vw;
+    min-height: 25vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+}

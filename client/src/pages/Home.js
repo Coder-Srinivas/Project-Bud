@@ -12,10 +12,10 @@ export default function Home() {
             swipe!
           </h4>
           <button className="btn">
-            <a>Get Started</a>
+           Get Started
           </button>
         </div>
-        <img className="home-hero--image" src="Images/hero.png" />
+        <img className="home-hero--image" src="Images/hero.png" alt="hero"/>
       </div>
     </div>
   );

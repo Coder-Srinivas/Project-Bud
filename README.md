@@ -15,7 +15,7 @@ Solution: A platform that matches learners with potential partners (with the fea
 
 ## Inspiration ⛳
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3o6wrebnKWmvx4ZBio" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/filmeditor-christmas-movies-a-story-3o6wrebnKWmvx4ZBio">via GIPHY</a></p>
+<img src="https://giphy.com/embed/3o6wrebnKWmvx4ZBio"> 
 
 Since our first year of college, we have been suffering from FOMO (fear of missing out) and also giving up due to lack of motivation. Even as we seeked peers to learn with, somewhere and sometime either of us parted ways as our goals and preferences did not match perfectly. Even though we searched communities, networked with people, it seemed very difficult to align our interests. Even through social media, we were not quite sure if someone was looking for a learning partner or not. So, this was our main motive and inspiration for the project.
 

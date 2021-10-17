@@ -20,10 +20,42 @@
   &-profile {
     margin-left: 1rem;
   }
+
+  &-round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: $color-yellow;
+    color: $color-green2;
+    border: 2px solid rgba(100, 100, 111, 0.2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+
+    &:hover {
+      background-color: transparent;
+      border: 2px solid $color-green2;
+    }
+  }
 }
 @media (max-width: 750px) {
   .btn {
     font-size: 0.8rem;
     max-width: 100vw;
+  }
+}
+
+.listen {
+  position: fixed;
+  z-index: 999;
+  top: 90%;
+  left: 90%;
+
+  &-icon {
+    transform: scale(1.5);
   }
 }

@@ -13,11 +13,7 @@ export default function Home() {
           </h4>
           <button className="btn">Get Started</button>
         </div>
-        <img
-          alt="home-page"
-          className="home-hero--image"
-          src="Images/hero.png"
-        />
+        <img className="home-hero--image" src="Images/hero.png" alt="hero" />
       </div>
     </div>
   );

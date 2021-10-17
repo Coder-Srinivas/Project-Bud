@@ -1,5 +1,68 @@
 .profile {
   min-height: 100vh;
-  margin-top: 10rem;
+  margin-top: 7rem;
   padding: 0 2rem;
+  color: $color-green2;
+  &--user {
+    display: flex;
+    justify-content: space-between;
+    &-greetings {
+      margin-top: 5rem;
+      font-size: 2rem;
+    }
+    &-sub {
+      font-weight: 200;
+    }
+    &-sub2 {
+      font-size: 0.9rem;
+      font-weight: 200;
+      margin-top: 1rem;
+    }
+    &-basic {
+      justify-content: center;
+      text-align: center;
+      &-gap {
+        @include user-card;
+        margin-top: -4rem;
+      }
+      &-text {
+        margin-top: -8rem;
+      }
+    }
+  }
+  &--details {
+    margin-top: 2rem;
+    &-heading {
+      color: $color-grey;
+      margin-bottom: 1.5rem;
+    }
+    &-head {
+      margin-bottom: 1rem;
+    }
+    &-content {
+      padding: 1rem;
+      border-radius: 35px;
+    }
+    &-container {
+      &-inside {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2rem 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .profile {
+    &--user {
+      flex-direction: column;
+      &-basic {
+        &-text {
+          margin-top: -4.5rem;
+        }
+      }
+    }
+  }
 }

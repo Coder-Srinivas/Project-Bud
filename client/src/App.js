@@ -7,6 +7,7 @@ import Browse from "./pages/Browse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { login } from "./services/login.service";
+import Listen from "./components/Listen";
 
 export default function App() {
   const { user, isLoading } = useAuth0();
@@ -25,6 +26,7 @@ export default function App() {
     );
   return (
     <div className="app">
+      <Listen />
       <Router>
         <Navbar />
         <Switch>

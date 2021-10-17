@@ -15,7 +15,7 @@ export default function Home() {
            <a href="/browse">Get Started</a>
           </button>
         </div>
-        <img className="home-hero--image" src="Images/hero.png" alt="hero"/>
+        <img className="home-hero--image" src="Images/hero.png" alt="hero" />
       </div>
     </div>
   );

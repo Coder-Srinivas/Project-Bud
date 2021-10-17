@@ -4,9 +4,10 @@ const router = express.Router();
 
 router.post("/login", async (req, res) => {
   try {
-    let user = await User.findByCredentials({ ...req.body });
+    let user = await User.findByCredentials({ email: req.body.user.email });
     if (!user) {
-      user = new User({ ...req.body });
+      user = new User({ ...req.body.user });
+      await user.save();
     }
     res.status(200).send({
       success: true,

@@ -18,7 +18,7 @@ const UserSchema = new Schema(
       dropDups: true,
     },
 
-    image: {
+    picture: {
       type: String,
     },
 

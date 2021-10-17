@@ -11,6 +11,7 @@ export default function App() {
   const { user, isLoading } = useAuth0();
   if (user) {
     login(user);
+    console.log(user);
   }
   if (isLoading)
     return (

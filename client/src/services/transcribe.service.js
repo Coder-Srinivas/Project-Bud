@@ -35,6 +35,7 @@ const listen = async () => {
 };
 
 const transcribe = async (url) => {
+    console.log(process.env.REACT_APP_ASSEMBLY_API_TOKEN);
     const assembly = axios.create({
         baseURL: "https://api.assemblyai.com/v2",
         headers: {

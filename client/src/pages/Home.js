@@ -9,7 +9,7 @@ export default function Home() {
           <h4 className="home-hero--text-sub">
             Get matched with profiles according to your learning goals and
             preferences. <br /> Matching as simple as a left swipe or a right
-            swipe!{" "}
+            swipe!
           </h4>
           <button className="btn">
             <a>Get Started</a>

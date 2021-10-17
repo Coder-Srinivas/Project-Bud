@@ -4,8 +4,11 @@ const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const http = require("http");
-
 const path = require("path");
+
+//Routes
+const userRoute = require("./routes/user.route");
+
 require("dotenv").config();
 require("./database/connection");
 
@@ -20,10 +23,10 @@ app.use(
     credentials: true,
   })
 );
-
 app.use(helmet({ contentSecurityPolicy: false }));
 app.use(morgan("dev"));
 app.use(express.json());
+app.use(userRoute);
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));

@@ -15,25 +15,27 @@ Solution: A platform that matches learners with potential partners (with the fea
 
 ## Inspiration ⛳
 
-<img src="https://giphy.com/embed/3o6wrebnKWmvx4ZBio"> 
+![SadGIF](https://user-images.githubusercontent.com/59244289/137631779-f3c81062-d7fc-4035-b809-db31f48864a7.gif)
+
 
 Since our first year of college, we have been suffering from FOMO (fear of missing out) and also giving up due to lack of motivation. Even as we seeked peers to learn with, somewhere and sometime either of us parted ways as our goals and preferences did not match perfectly. Even though we searched communities, networked with people, it seemed very difficult to align our interests. Even through social media, we were not quite sure if someone was looking for a learning partner or not. So, this was our main motive and inspiration for the project.
 
 ## What it does
 
-<div style="width:100%;height:0;padding-bottom:53%;position:relative;"><iframe src="https://giphy.com/embed/B0vFTrb0ZGDf2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/city-bus-doll-B0vFTrb0ZGDf2">via GIPHY</a></p>
+![ClaireDancingGIF](https://user-images.githubusercontent.com/59244289/137631826-57e881e8-488a-4e1b-9de4-3cbdaf9218ff.gif)
+
 
 It lets you browse through user profiles and lets you connect with them through a simple right swipe!
 
 ## How we built it
 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/10yIEN8cMn4i9W" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/mrw-video-youtube-10yIEN8cMn4i9W">via GIPHY</a></p>
+![HowAnthonyMennellaGIF](https://user-images.githubusercontent.com/59244289/137631885-fc676034-6ae6-40ba-b04f-b563168fef97.gif)
 
 We used React and Sass on the frontend and Node.js, Express and MongoDB on the backend. We used Auth0 for easy authentication using React itself, tried creating audio transcript using Assembly AI and used iconify and fontAwesome for the incredible icons.
 
 ## Challenges we ran into
 
-<div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/5tkThE8fdFvPj49CU1" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/poptv-pop-tv-flack-5tkThE8fdFvPj49CU1">via GIPHY</a></p>
+![PussInBootsEyesGIF](https://user-images.githubusercontent.com/59244289/137631927-2d6773e3-6600-4e2b-9dbf-45580017f1a8.gif)
 
 1) Integrating frontend with backend.
 2) Hosting issues.
@@ -47,6 +49,6 @@ We used React and Sass on the frontend and Node.js, Express and MongoDB on the b
 
 ## What's next?
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/lPY5d1vUYBreWtF1I0" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/snowfallfx-franklin-whats-next-so-lPY5d1vUYBreWtF1I0">via GIPHY</a></p>
+![IKnowYupGIF](https://user-images.githubusercontent.com/59244289/137632027-9ae2f1f7-6c04-4ea7-a37a-fee39b615fe6.gif)
 
 We are planning to add more features like messaging, calling and also AI to smartly match profiles according to interests of users.

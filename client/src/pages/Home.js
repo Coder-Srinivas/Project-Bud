@@ -11,7 +11,9 @@ export default function Home() {
             preferences. <br /> Matching as simple as a left swipe or a right
             swipe!
           </h4>
-          <button className="btn">Get Started</button>
+          <button className="btn">
+           Get Started
+          </button>
         </div>
         <img className="home-hero--image" src="Images/hero.png" alt="hero" />
       </div>

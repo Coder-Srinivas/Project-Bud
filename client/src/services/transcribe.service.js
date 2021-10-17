@@ -1,3 +1,5 @@
+const axios = require("axios");
+
 const getMediaRecorder = async () => {
   let audioIN = { audio: true };
 
@@ -29,9 +31,28 @@ const listen = async () => {
   await timeout(1000);
   let audioData = new Blob(audioArray, { type: "audio/mp3;" });
   audioArray = [];
-  return window.URL.createObjectURL(audioData);
+  transcribe(window.URL.createObjectURL(audioData));
 };
 
-const transcribe = () => {};
+const transcribe = async (url) => {
+    const assembly = axios.create({
+        baseURL: "https://api.assemblyai.com/v2",
+        headers: {
+          authorization: process.env.REACT_APP_ASSEMBLY_API_TOKEN,
+          "content-type": "application/json",
+        },
+      });
+    assembly
+    .post(`/transcript`, {
+    audio_url: url
+    })
+    .then((res) => {
+        const id = res.data.id;
+        assembly.get(`/transcript/${id}`)
+        .then((res) => console.log(res.data))
+        .catch((err) => console.log(err.message));
+    })
+    .catch((err) => console.error(err));
+};
 
 export { listen };

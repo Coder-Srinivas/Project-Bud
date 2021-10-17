@@ -2,9 +2,11 @@
 
 ![Logo 500x500 px (15) 1](https://user-images.githubusercontent.com/59244300/137630305-7322f7a4-f16f-4731-8c63-167998a89630.png)
 
-This is our domain name on domain.com!
+This project is submitted as part of MHacks14
+![image](https://user-images.githubusercontent.com/59244300/137633248-6244fc49-b5b0-4fcc-8cd8-3f28d552a409.png)
 
-![WhatsApp Image 2021-10-17 at 8 33 42 PM](https://user-images.githubusercontent.com/59244300/137633165-49e79022-02f7-4194-8e61-fe1d2f2f9bae.jpeg)
+This is our domain name on domain.com!
+![WhatsApp Image 2021-10-17 at 8 33 42 PM](https://user-images.githubusercontent.com/59244300/137633195-d4db957b-1327-47dd-8e9b-77c3b8048049.jpeg)
 
 ## Tech Stack 👨‍💻
 

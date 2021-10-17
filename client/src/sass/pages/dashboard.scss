@@ -1,8 +1,9 @@
 .profile {
 min-height: 100vh;
-margin-top: 7rem;
+margin-top: 5.2rem;
 padding: 0 2rem;
 color: $color-green2;
+background-color: #bdd9bf2d;
 &--user{
     display: flex;
     justify-content: space-between;
@@ -52,6 +53,20 @@ color: $color-green2;
         margin: 2rem 0;
         }
     }
+}
+
+&--connections{
+    &-inside{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    & > :not(last-child){
+        margin-right: 1.5rem;
+    }
+    &>*{
+        margin-bottom: 2rem;
+    }
+}
 }
  }
 

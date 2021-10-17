@@ -3,6 +3,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import Navbar from "./components/Navbar";
 import Dashboard from "./pages/Dashboard";
 import Home from "./pages/Home";
+import Browse from "./pages/Browse";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 import { login } from "./services/login.service";
@@ -29,6 +30,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/profile" component={Dashboard} />
+          <Route exact path="/browse" component={Browse} />
         </Switch>
       </Router>
     </div>

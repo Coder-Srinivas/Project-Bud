@@ -1,0 +1,13 @@
+.browse{
+    margin: 10rem 2rem 5rem 2rem;
+    &--inside{
+    display: flex;
+    flex-wrap: wrap;
+    & > :not(last-child){
+        margin-right: 1.5rem;
+    }
+    &>*{
+        margin-bottom: 2rem;
+    }
+}
+}

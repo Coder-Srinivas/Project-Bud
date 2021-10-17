@@ -4,5 +4,7 @@
     min-height: 25vh;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
     border-radius: 1.5rem;
 }

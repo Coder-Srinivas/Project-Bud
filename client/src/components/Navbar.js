@@ -1,5 +1,5 @@
-import { useAuth0 } from '@auth0/auth0-react';
-import { Icon } from '@iconify/react';
+import { useAuth0 } from "@auth0/auth0-react";
+import { Icon } from "@iconify/react";
 
 export default function Navbar() {
     const { logout, isAuthenticated, loginWithRedirect } = useAuth0();
@@ -15,4 +15,5 @@ export default function Navbar() {
             </div>
         </div>
     )
+
 }

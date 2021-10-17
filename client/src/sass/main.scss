@@ -1,11 +1,15 @@
 //base
-@import './base/variables.scss';
-@import './base/root.scss';
+@import "./base/variables.scss";
+@import "./base/root.scss";
 
 //components
-@import './components/navbar.scss';
-@import './components/button.scss';
+@import "./components/navbar.scss";
+@import "./components/button.scss";
 
 //pages
+<<<<<<< HEAD
 @import './pages/home.scss';
 @import './pages/dashboard.scss';
+=======
+@import "./pages/home.scss";
+>>>>>>> 05c7efcfdcefe706ab5377310063f355745da891

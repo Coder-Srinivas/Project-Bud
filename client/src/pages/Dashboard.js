@@ -3,7 +3,7 @@ import Avatar from 'react-avatar';
 import JSONPretty from 'react-json-pretty';
 
 export default function Dashboard() {
-    const { user, isAuthenticated } = useAuth0();
+  const { user, isAuthenticated } = useAuth0();
 
     return (
       isAuthenticated && ( 
@@ -17,5 +17,5 @@ export default function Dashboard() {
           <JSONPretty data={user} />
         </div>
       )
-    )
+  );
 }

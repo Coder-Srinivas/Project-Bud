@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 export default function App() {
-  const { isLoading } = useAuth0();
+  const { user, isLoading } = useAuth0();
   if (isLoading)
     return (
       <div className="loading">

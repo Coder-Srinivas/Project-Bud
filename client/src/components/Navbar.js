@@ -14,7 +14,12 @@ export default function Navbar() {
             </a>
           </button>
         ) : (
-          <button className="btn" onClick={() => loginWithRedirect()}>
+          <button
+            className="btn"
+            onClick={() => {
+              loginWithRedirect();
+            }}
+          >
             <a>Log in</a>
           </button>
         )}
